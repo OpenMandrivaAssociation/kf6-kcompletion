@@ -1,6 +1,6 @@
 %define libname %mklibname KF6Completion
 %define devname %mklibname KF6Completion -d
-%define git 20230722
+%define git 20230726
 
 Name: kf6-kcompletion
 Version: 5.240.0
