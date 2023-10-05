@@ -1,6 +1,6 @@
 %define libname %mklibname KF6Completion
 %define devname %mklibname KF6Completion -d
-%define git 20230927
+%define git 20231005
 
 Name: kf6-kcompletion
 Version: 5.240.0
@@ -83,7 +83,6 @@ Powerful completion framework, including completion-enabled lineedit and combobo
 %files -n %{devname}
 %{_includedir}/KF6/KCompletion
 %{_libdir}/cmake/KF6Completion
-%{_qtdir}/mkspecs/modules/qt_KCompletion.pri
 %{_qtdir}/doc/KF6Completion.*
 
 %files -n %{libname}
