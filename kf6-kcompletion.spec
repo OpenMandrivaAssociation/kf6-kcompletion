@@ -6,7 +6,7 @@
 #define git 20240217
 
 Name: kf6-kcompletion
-Version: 6.13.0
+Version: 6.14.0
 Release: %{?git:0.%{git}.}1
 %if 0%{?git:1}
 Source0: https://invent.kde.org/frameworks/kcompletion/-/archive/master/kcompletion-master.tar.bz2#/kcompletion-%{git}.tar.bz2
