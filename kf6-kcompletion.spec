@@ -6,7 +6,7 @@
 #define git 20240217
 
 Name: kf6-kcompletion
-Version: 6.14.0
+Version: 6.15.0
 Release: %{?git:0.%{git}.}1
 %if 0%{?git:1}
 Source0: https://invent.kde.org/frameworks/kcompletion/-/archive/master/kcompletion-master.tar.bz2#/kcompletion-%{git}.tar.bz2
@@ -90,7 +90,6 @@ Powerful completion framework, including completion-enabled lineedit and combobo
 %files -n %{devname}
 %{_includedir}/KF6/KCompletion
 %{_libdir}/cmake/KF6Completion
-%{_qtdir}/doc/KF6Completion.*
 
 %files -n %{libname}
 %{_libdir}/libKF6Completion.so*
